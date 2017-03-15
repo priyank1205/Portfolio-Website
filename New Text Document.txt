@@ -1,0 +1,46 @@
+#header {
+				  background: url('Design_Thinking.jpg') no-repeat center center #011c26;
+				  padding-top: 200px;
+				  background-size: 100%;
+				  padding-bottom: 175px;
+				  position: absolute;
+				  top: 0;
+				  left: 0;
+				  width: 100%;
+				}
+
+
+<!-- Navigation -->
+			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="top: 0px;">
+					<div class="container">
+							<!-- Brand and toggle get grouped for better mobile display -->
+						 <div class="navbar-header">
+							<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								</div>
+							<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+									<li class="active"><a class="nav-changed" href="home.html"><span>Portfolio</span></a>
+									</li>
+									<li><a class="nav-changed" target="_blank" href="resume/Priyank_Agarwal_Resume_new.pdf"><span>Resume</span></a>
+									</li>
+									<li><a class="nav-changed" href="About_Me/aboutme.html"><span>About Me</span></a>
+									</li>
+									<li><a class="nav-changed nav-last" href="Contact_Me/Contact.html"><span>Contact</span></a>
+									</li>
+							</ul>
+						</div>
+							<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.container -->
+			</nav>
+
+
+
+.social-circle li {
+ background-color: #D3D3D3;
+}
