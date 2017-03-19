@@ -5,11 +5,19 @@
 }
 
 .photo-grid li {
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     display: inline-block;
     margin: 1em;
-    height: 250px;
-    width: 320px;
+    max-height: 250px;
+    max-width: 320px;
+}
+
+.projectCards {
+    margin: 0 auto;
+}
+
+.projectCards figure {
+    border: 2px solid grey;
 }
 
 .photo-grid figure {
@@ -59,7 +67,6 @@
 .photo-grid figcaption {
     background: rgba(0, 0, 0, 0.8);
     color: white;
-
     display: table;
     height: 100%;
     left: 0;
@@ -74,4 +81,17 @@
     -moz-transition-delay: 100ms;
     transition-delay: 100ms;
     z-index: 100;
+}
+
+@media screen and (max-width: 350px) {
+    .photo-grid li {
+        width: 256px;
+        height: 200px;
+    }
+    .photo-grid figure {
+        height: 200px;
+        overflow: hidden;
+        /*position: relative;*/
+        width: 256px;
+    }
 }
