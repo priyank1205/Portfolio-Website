@@ -15,12 +15,12 @@
 .photo-grid figure {
     height: 250px;
     overflow: hidden;
-    position: relative;
+    /*position: relative;*/
     width: 320px;
 }
 
 .photo-grid img {
-    display: block;
+    /*display: block;*/
     height: auto;
     -webkit-transition: all 300ms;
     -moz-transition: all 300ms;
@@ -59,6 +59,7 @@
 .photo-grid figcaption {
     background: rgba(0, 0, 0, 0.8);
     color: white;
+
     display: table;
     height: 100%;
     left: 0;

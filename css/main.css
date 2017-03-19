@@ -80,17 +80,28 @@ if it's not present, don't show loader */
 	background: url(images/loader-64x/Preloader_2.gif) center no-repeat #fff;
 }
 
+figure{
+  margin: 0 0;
+}
+
 footer {
     margin-top: 20px;
     text-align: center;
 }
 
 .menu {
+    width:70%;
+    margin: auto;
     margin-top: 50px;
     text-align: center;
     font-size: 1em;
+    /*position:relative;*/
 }
 
+.nav-items{
+  /*padding: 5px;*/
+  margin: 0 10px;
+}
 
 /* unvisited link */
 
@@ -122,9 +133,45 @@ footer {
     color: #2b2d2d;
 }
 
-.menu .current {
+.current {
     color: #636363;
     font-weight: 500;
     padding-bottom: 5px;
     border-bottom: 2.5px solid #636363;
+    margin: 0 10px;
+}
+
+/*To make the navbar responsive*/
+@media screen and (max-width: 1920px){
+  .nav-items{
+    font-size: 1.1em;
+    margin: 0 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .menu{
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .menu {
+      width:100%;
+  }
+
+  .nav-items{
+    font-size: 1em;
+    margin: 0 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .nav-items{
+    font-size: 0.8em;
+    margin: 0 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
 }
