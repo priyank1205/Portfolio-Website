@@ -1,15 +1,22 @@
 .photo-grid {
-    margin: 1em auto;
+    margin: 1em auto 3em auto;
     max-width: 1106px;
     text-align: center;
+    font-family: 'Source Sans Pro', 'Adelle', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.boldface {
+    font-weight: 600;
 }
 
 .photo-grid li {
     /*border: 2px solid black;*/
     display: inline-block;
-    margin: 1em;
-    max-height: 250px;
-    max-width: 320px;
+    margin: 1em 1em 2em 1em;
+    /*max-height: 300px;
+    max-width: 320px;*/
 }
 
 .projectCards {
@@ -17,7 +24,7 @@
 }
 
 .projectCards figure {
-    border: 2px solid grey;
+    border: 2px solid #ccc;
 }
 
 .photo-grid figure {
@@ -84,14 +91,17 @@
 }
 
 @media screen and (max-width: 350px) {
-    .photo-grid li {
+    /*.photo-grid li {
         width: 256px;
         height: 200px;
-    }
+    }*/
     .photo-grid figure {
         height: 200px;
         overflow: hidden;
         /*position: relative;*/
         width: 256px;
+    }
+    .photo-grid {
+        font-size: 14px;
     }
 }
